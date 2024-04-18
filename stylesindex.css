@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./Assets/DSC_0001.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.content p{
+    font-weight: bold;
+    font-size:28px;
+    margin-bottom: -60px;
+}
+
+form img{
+    mix-blend-mode: multiply;
+    width:300px;
+    margin-bottom:-50px;
+}
+
+.content {
+    max-width: 400px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 72px; /* Adjust the font size as needed */
+    margin-top: -200px;
+    margin-left:-700px;
+    margin-bottom:200px;
+    white-space: nowrap; /* Ensures the heading stays in one line */
+    color:white;
+    -webkit-text-stroke: 0.05cm;
+    -webkit-text-stroke-color: black;
+    
+}
+
+.container {
+    max-width: 80%; /* Adjust the maximum width as needed */
+}
+
+
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+form input[type="email"],
+form input[type="password"] {
+    width: calc(100% - 40px); /* Adjusted width for the eye icon */
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    position: relative; /* Add position relative to the input field */
+}
+
+form input[type="password"],
+form input[type="text"] {
+  /* Existing styles... */
+  font-family: monospace; /* Add this line */
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Adjusted font size for better visibility */
+}
+
+
+.password-container {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-image: url('Assets/eye_icon.png');
+    background-size: cover;
+    cursor: pointer;
+}

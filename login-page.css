@@ -1,0 +1,238 @@
+.centurion-university-of,
+.fees-dashboard1 {
+  margin: 0;
+  position: relative;
+  letter-spacing: -0.05em;
+}
+.centurion-university-of {
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.fees-dashboard1 {
+  font-size: 42px;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+.image-1-icon1 {
+  width: 210px;
+  height: 332px;
+  position: relative;
+  object-fit: cover;
+}
+.password1,
+.username-frame {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-mulish);
+  color: var(--color-darkgray-400);
+}
+.username-frame {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 73px;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-21xl) var(--padding-5xl);
+  box-sizing: border-box;
+  min-width: 250px;
+}
+.password1 {
+  position: relative;
+  letter-spacing: -0.05em;
+  text-align: left;
+}
+.password-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.iconoireye-solid {
+  height: 33px;
+  width: 33px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.username-frame1 {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-9xl) var(--padding-xl)
+    var(--padding-21xl);
+  gap: var(--gap-xl);
+}
+.email-input-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px 0;
+}
+.material-symbolslogin-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.login {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: -0.05em;
+  font-family: var(--font-mulish);
+  color: var(--color-black);
+  text-align: left;
+}
+.background-image {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-xl);
+  background-color: #6cc0fc;
+  align-self: stretch;
+  border-radius: var(--br-23xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 11px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.background-image:hover {
+  background-color: #388cc9;
+}
+.centurion-university-of-techno-parent,
+.fee-dashboard-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.fee-dashboard-title {
+  margin: 0;
+  width: 473px;
+  gap: 26px 0;
+  flex-shrink: 0;
+}
+.centurion-university-of-techno-parent {
+  width: 1720px;
+  border-radius: 29px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0),
+    rgba(136, 136, 136, 0.65)
+  );
+  backdrop-filter: blur(30px);
+  border: 1px solid #fefefe;
+  box-sizing: border-box;
+  padding: 99px var(--padding-xl) 89px;
+  gap: 7px 0;
+  z-index: 2;
+}
+.divider-line-child {
+  align-self: stretch;
+  width: 1920px;
+  position: relative;
+  background-color: var(--color-black);
+  display: none;
+  max-width: 100%;
+}
+.image-2-icon {
+  height: 844.4px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.divider-line,
+.login-page {
+  display: flex;
+  align-items: center;
+}
+.divider-line {
+  align-self: stretch;
+  background-color: var(--color-black);
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+  margin-top: -773px;
+}
+.login-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 70px 0 0;
+  box-sizing: border-box;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1725px) {
+  .centurion-university-of-techno-parent {
+    width: calc(100% - 40px);
+  }
+}
+@media screen and (max-width: 1350px) {
+  .centurion-university-of-techno-parent {
+    padding-top: 64px;
+    padding-bottom: 58px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .centurion-university-of {
+    font-size: var(--font-size-21xl);
+  }
+  .fees-dashboard1 {
+    font-size: var(--font-size-15xl);
+  }
+  .centurion-university-of-techno-parent {
+    padding-top: 42px;
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .centurion-university-of {
+    font-size: var(--font-size-11xl);
+  }
+  .fees-dashboard1 {
+    font-size: 25px;
+  }
+  .username-frame1 {
+    flex-wrap: wrap;
+  }
+}
